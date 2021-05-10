@@ -1,0 +1,86 @@
+
+.feeds {
+    display:flex;
+    margin: 4%;
+    flex:0.60;
+    flex-direction: row;
+    margin-top: 7%;
+    /* right: 0%; */
+}
+
+.feedsRight {
+    flex: 0.35;
+    position: relative;
+    flex-direction: column;
+    padding: 3%;
+    right: 0%;
+    top:10%;
+    width: 100px;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.dashboard {
+    display: grid;
+    place-items: center;
+    display: flex;
+    place-items: center;
+    flex-direction: row;
+}
+
+.messageContent {
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.timestamp {
+    margin-left: 10px;
+    padding: 5px;
+    font-size: xx-small;
+}
+
+.text {
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.feeds_body {
+    flex: 1;
+    overflow: scroll;
+    flex-direction: column;
+    height: 500px;
+    left: 0%;
+}
+
+.uploader {
+    font-weight: 800;
+    font-size: medium;
+}
+
+.messageContent {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* border-radius: 10px; */
+    border-radius: 0px 20px 20px 20px;
+    /* border: 1px solid black; */
+    background-color: rgb(95, 233, 252);
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+Jumbotron {
+    padding: 5px;
+}
+.vo{
+    margin: 2%;
+}
+
+.form-group input {
+    padding: 5px;
+    margin: 10px;
+}
